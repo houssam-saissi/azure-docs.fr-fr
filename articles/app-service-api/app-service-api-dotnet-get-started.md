@@ -46,7 +46,7 @@ La solution Visual Studio inclut trois projets :
 
 * **ToDoListAngular** (composant frontal) : application monopage AngularJS qui appelle la couche intermédiaire.
 * **ToDoListAPI** (couche intermédiaire) : projet API web ASP.NET qui appelle la couche Données pour effectuer des opérations CRUD sur les éléments de tâche.
-* **ToDoListAPI** (couche Données) : un projet API web ASP.NET qui exécute les opérations CRUD sur les éléments de tâche.
+* **ToDoListDataAPI** (couche Données) : un projet API web ASP.NET qui exécute les opérations CRUD sur les éléments de tâche.
 
 L’architecture à trois niveaux est une des nombreuses architectures que vous pouvez implémenter à l’aide d’API Apps et est utilisée ici uniquement à des fins de démonstration. Le code de chaque niveau est aussi simple que possible de manière à illustrer les fonctionnalités API Apps ; par exemple, la couche Données utilise la mémoire du serveur plutôt qu’une base de données comme mécanisme de persistance.
 
